@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- bài : quản lý tuyển sinh -->
+
+
+    <h1>Tuyển Sinh</h1>
+    <h4>Điểm đầu vào: </h4>
+    <input type="text" placeholder="điểm chuẩn" id="ipDiemChuan">
+    <h4>Điểm sinh viên</h4>
+    <span>Điểm môn thứ nhất</span>
+    <input type="text" id="diemMonMot">
+    <span>Điểm môn thứ hai</span>
+    <input type="text" id="diemMonHai">
+    <span>Điểm môn thứ ba</span>
+    <input type="text" id="diemMonBa">
+    <h4></h4>
+    <h4>Khu vực ưu tiên</h4>
+    <span>Khu vực A</span>
+    <input type="radio" name="khu vuc" id="rdkhuVuc_A"> 
+    <br>
+    <span>Khu vực B</span>
+    <input type="radio" name="khu vuc" id="rdkhuVuc_B">
+    <br>
+    <span>Khu vực C</span>
+    <input type="radio" name="khu vuc" id="rdkhuVuc_C">
+    <br>
+    <span>Không thuộc diện ưu tiên</span>
+    <input type="text" name="khu vuc" id="ipKhongTrongKhuVucUutien" placeholder="Vui lòng nhập x">
+    <h4></h4>
+    <h4>Đối tượng ưu tiên</h4>
+    <span>Đối tượng 1</span>
+    <input type="radio" name="doi tuong" id="rdDoiTuongMot">
+    <span>Đối tượng 2</span>
+    <input type="radio" name="doi tuong" id="rdDoiTuongHai">
+    <span>Đối tượng 3</span>
+    <input type="radio" name="doi tuong" id="rdDoiTuongBa">
+    <span>Không thuộc đối tượng ưu tiên</span>
+    <input type="text" name="doi tuong" id="ipKhongThuocDienUuTien" placeholder="Vui lòng nhập 0">
+    <h4></h4>
+    <input type="button" value="Tính" id="btnTinhDiem">
+    <h5>Kết quả: </h5>
+    <span id="ketQua"></span>
+    <h5>Điểm: </h5>
+    <span id="point"></span>
+
+
+<hr>
+
+    <!-- bài tính tiền điện -->
+    <h1>Tính Tiền Điện</h1>
+
+    <span style="font-weight: 600;font-size: larger;">Nhập kWh(kí điện): </span>
+    
+    <input type="text" placeholder="kWh" id="ipBill">
+    <input type="button" value="Tính tiền" id="btnBill">
+    <p id="opBill"></p>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
