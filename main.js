@@ -17,7 +17,7 @@ var tinhDiem = function () {
     var rdkhuVuc_A = getElm('rdkhuVuc_A')
     var rdkhuVuc_B = getElm('rdkhuVuc_B')
     var rdkhuVuc_C = getElm('rdkhuVuc_C')
-    var ipKhongTrongKhuVucUutien = getElm('ipKhongTrongKhuVucUutien').value
+    var ipKhongTrongKhuVucUuTien = getElm('ipKhongTrongKhuVucUuTien').value
 
     var rdDoiTuongMot =getElm('rdDoiTuongMot')
     var rdDoiTuongHai =getElm('rdDoiTuongHai')
@@ -58,7 +58,7 @@ var tinhDiem = function () {
     } else if(rdkhuVuc_C.checked) {
         diemUuTienKhuVuc =  0.5
         
-    } else if(ipKhongTrongKhuVucUutien !== 'x') {
+    } else if(ipKhongTrongKhuVucUuTien !== 'x') {
         alert('vui lòng nhập lại phần khu vực')
 
     } else{
